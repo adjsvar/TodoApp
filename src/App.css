@@ -10,6 +10,10 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Libre Baskerville', serif;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
 
 :root {
   --main-bg-color: #F9FAFF;
@@ -128,4 +132,17 @@ body {
 .taskTime {
   color: var(--date-font-color);
   text-transform: uppercase;
+}
+
+.addGrid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 80vh;
+}
+
+.addButtons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
